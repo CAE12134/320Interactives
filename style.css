@@ -11,6 +11,11 @@ text-align: center;
 }
 
 p{
-    border: 20px;
-    border-color: #1D1B40;
+    background-color: #1D1B40;
+    border: 2px;
+    border-color: #ffffff;
+}
+
+p{
+    background-color: #1D1B40;
 }
