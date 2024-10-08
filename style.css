@@ -1,0 +1,17 @@
+body{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(67, 69, 69);
+background-image: url(whitewave.jpeg);
+}
+h1{
+color:#1D1B40;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size:xx-large;
+text-align: center;
+}
+
+p{
+    border: 20px;
+    border-color: #1D1B40;
+}
