@@ -1,3 +1,4 @@
+
 body{
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
@@ -5,21 +6,66 @@ body{
     font-size: 20px;
 background-image: url(whitewave.jpeg);
 }
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.button {
+    background-color:rgba(106, 108, 108, 0.95);
+    border: 2px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#1D1B40;
+}
+li {
+float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgba(106, 108, 108, 0.95);
+}
+li a:hover {
+    background-color: #030307;
+}
+p{outline-color: rgba(106, 108, 108, 0.95);}
+p.double {outline-style:double}
 h1{
 color:#1D1B40;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-align: center;
+
 }
 
 p{
+    text-align: center;
     background-color: #1D1B40;
     border: 20px;
-    border-color: #434343;
+    border-color: rgba(106, 108, 108, 0.95);
+    outline-color:rgba(106, 108, 108, 0.95);
+    p.double {outline-style:double;}
 }
 
 p{
     background-color: #1D1B40;
 }
-ul{
-    background-color: #1D1B40;
+li{
+    color: #1D1B40;
 }
