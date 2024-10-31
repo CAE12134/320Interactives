@@ -4,7 +4,6 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color: rgba(106, 108, 108, 0.95);
     font-size: 20px;
-background-image: url(whitewave.jpeg);
 }
 .center{
     display: block;
@@ -51,7 +50,6 @@ h1{
 color:#1D1B40;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-align: center;
-
 }
 
 p{
