@@ -41,8 +41,11 @@ li a {
     text-decoration: none;
     color: rgba(106, 108, 108, 0.95);
 }
-li a:hover {
+li a:hover :not(.active) {
     background-color: #030307;
+}
+.active {
+    background-color:#030307;
 }
 p{outline-color: rgba(106, 108, 108, 0.95);}
 p.double {outline-style:double}
