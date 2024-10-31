@@ -55,7 +55,11 @@ color:#1D1B40;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-align: center;
 }
-
+h2{
+    color:#1D1B40;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
 p{
     text-align: center;
     background-color: #1D1B40;
