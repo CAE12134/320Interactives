@@ -1,6 +1,10 @@
 
 body{
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height:auto;
     font-family: 'Times New Roman', Times, serif;
     color: rgba(106, 108, 108, 0.95);
     font-size: 20px;
