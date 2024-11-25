@@ -10,9 +10,13 @@ body{
     font-size: 20px;
 }
 .container { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     padding: 20px; 
     margin: 10px; 
-    max-width: 80%; 
+    max-width: 100%; 
     box-sizing: border-box; 
 }
 .center{
