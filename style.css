@@ -51,7 +51,7 @@ body{
 } 
 .thumbnail { 
     width: 100%; 
-    max-width: 300px;
+    max-width: 500px;
     cursor: pointer; 
     border: 1px solid #ccc;
 }
