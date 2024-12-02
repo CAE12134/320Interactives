@@ -45,6 +45,10 @@ body{
     align-items: flex-start; 
     text-align: left; 
 } 
+.resume-title { 
+    text-align: center; 
+    margin: 10px 0;
+}
 .pdf-preview { 
     align-self: center;
     margin-top: 10px; 
@@ -112,9 +116,6 @@ h2{
     color:#1D1B40;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
-}
-h3{
-    text-align: center;
 }
 p{
     text-align: center;
