@@ -42,17 +42,13 @@ body{
     text-align: left; 
 } 
 .pdf-preview { 
+    align-self: center;
     margin-top: 10px; 
 } 
 .thumbnail { 
     width: 200px; 
     cursor: pointer; 
     border: 1px solid #ccc;
-}
-.pdf-frame { 
-    border: none; 
-    width: 80%; 
-    height: 600px;
 }
 .video-wrapper { 
     margin-top: 10px; 
