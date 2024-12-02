@@ -95,3 +95,17 @@ img.center {
     display: block; 
     margin: 20px auto; 
 }
+.icons { 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+} 
+.icon-link { 
+    margin: 0 10px; 
+    font-size: 24px; 
+    color: rgba(106, 108, 108, 0.95); 
+    text-decoration: none; 
+} 
+.icon-link:hover { 
+    color: #1D1B40; 
+}
