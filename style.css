@@ -53,12 +53,16 @@ body{
     align-self: center;
     margin-top: 10px; 
 } 
+.thumbnail-container { 
+    position: relative; 
+    display: inline-block; 
+} 
 .thumbnail { 
     width: 100%; 
-    max-width: 500px;
+    max-width: 500px; 
     cursor: pointer; 
-    border: 1px solid #ccc;
-}
+    border: 1px solid #ccc; 
+} 
 .watermark { 
     position: absolute; 
     top: 50%; 
@@ -69,7 +73,7 @@ body{
     padding: 5px; 
     border-radius: 5px; 
     font-size: 14px; 
-    pointer-events: none;
+    pointer-events: none; 
 }
 .video-wrapper { 
     margin-top: 10px; 
