@@ -196,7 +196,7 @@ img.center {
     color: #1D1B40; 
 }
 /* Media sizing for smaller screens */ 
-/*@media (max-width: 320px) { 
+@media (max-width: 320px) { 
     .container, .content, .text-and-preview { 
         width: 100%;
     }
@@ -209,4 +209,4 @@ img.center {
     .video-element { 
         height: 180px; 
     } 
-}*/
+}
