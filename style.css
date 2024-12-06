@@ -59,7 +59,7 @@ body{
     background-color: rgba(0, 0, 0, 0.8);
 }
 .center-img {
-    max-width: 100%;
+    max-width: 800px;
     height: auto;
   }
 .text-and-preview {
@@ -70,6 +70,7 @@ body{
 .resume-title { 
     text-align: center; 
     margin: 10px 0;
+    align-self: center;
 }
 .pdf-preview { 
     align-self: center;
