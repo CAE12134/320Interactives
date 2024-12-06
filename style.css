@@ -194,7 +194,7 @@ li{
     color: #1D1B40; 
 }
 /* Media sizing for smaller screens */ 
-@media (max-width: 768px) {
+@media (max-width: 578px) {
     .text-and-preview {
       padding: 10px;
       font-size: 14px;
