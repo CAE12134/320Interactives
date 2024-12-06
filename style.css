@@ -100,9 +100,9 @@ body{
     pointer-events: none; 
 }
 .video-wrapper { 
-    margin-top: 10px; 
+    margin: 0 auto; 
     text-align: center; 
-    width: auto;
+    width:auto;
     max-width: 800px;
     align-self: center;
 } 
