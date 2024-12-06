@@ -58,23 +58,15 @@ body{
 .prev:hover, .next:hover { 
     background-color: rgba(0, 0, 0, 0.8);
 }
-.side-img { 
-    max-width: 30%; 
-    height:auto
-}
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.text-and-preview { 
-    display: flex; 
-    flex-direction: column; 
-    align-items: flex-start; 
-    text-align: left; 
-} 
+.center-img {
+    max-width: 100%;
+    height: auto;
+  }
+.text-and-preview {
+    width: auto;
+    max-width: 800px;
+    margin: 0 auto;
+  }
 .resume-title { 
     text-align: center; 
     margin: 10px 0;
@@ -108,11 +100,15 @@ body{
 .video-wrapper { 
     margin-top: 10px; 
     text-align: center; 
+    width: auto;
+    max-width: 800px;
 } 
 .caption { 
     font-size: 16px; 
     color: rgba(106, 108, 108, 0.95); 
     margin-top: 10px; 
+    width: auto;
+    max-width: 800px;
 }
 .button {
     background-color:rgba(106, 108, 108, 0.95);
@@ -171,18 +167,11 @@ p{
     outline-color:rgba(106, 108, 108, 0.95);
     p.double {outline-style:double;}
 }
-
 p{
     background-color: #1D1B40;
 }
 li{
     color: #1D1B40;
-}
-img.center { 
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    margin: 20px auto; 
 }
 .icons { 
     display: flex; 
@@ -199,17 +188,22 @@ img.center {
     color: #1D1B40; 
 }
 /* Media sizing for smaller screens */ 
-@media (max-width: 320px) { 
-    .container, .content, .text-and-preview { 
-       flex-direction: column;
+@media (max-width: 768px) {
+    .text-and-preview {
+      padding: 10px;
+      font-size: 14px;
+    } 
+    .center-img {
+      width: 100%;
+      height: auto;
     }
-    .side-img, .thumbnail { 
-        max-width: 100%; 
-    } 
-    .pdf-frame { 
-        height: 200px; 
-    } 
-    .video-element { 
-        height: 180px; 
-    } 
-}
+    .video-wrapper {
+      width: 100%;
+      text-align: center;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
