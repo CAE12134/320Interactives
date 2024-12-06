@@ -104,6 +104,7 @@ body{
     text-align: center; 
     width: auto;
     max-width: 800px;
+    align-self: center;
 } 
 .caption { 
     font-size: 16px; 
@@ -149,8 +150,11 @@ li a:hover :not(.active) {
 .active {
     background-color:#030307;
 }
+ul{outline-color:rgba(106, 108, 108, 0.95);}
+ul.double {outline-style: double;}
 p{outline-color: rgba(106, 108, 108, 0.95);}
 p.double {outline-style:double}
+p.dotted {outline-style:dotted}
 h1{
 color:#1D1B40;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -200,7 +204,7 @@ li{
       height: auto;
     }
     .video-wrapper {
-      width: 80%;
+      width: 100%;
       text-align: center;
     }
     .icons {
