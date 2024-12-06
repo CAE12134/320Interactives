@@ -61,6 +61,7 @@ body{
 .center-img {
     max-width: 800px;
     height: auto;
+    max-height: 600px;
   }
 .text-and-preview {
     width: auto;
