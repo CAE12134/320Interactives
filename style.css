@@ -5,7 +5,7 @@ body{
     align-items: center;
     height:auto;
     font-family: 'Times New Roman', Times, serif;
-    color: rgba(106, 108, 108, 0.95);
+    color: rgba(255, 255, 255, 0.95);
     font-size: 18px;
 }
 .container { 
@@ -18,7 +18,7 @@ body{
     max-width: 100%; 
     box-sizing: border-box; 
     text-align: center; 
-    border: 3px double rgba(106, 108, 108, 0.95); 
+    border: 3px double rgba(255, 255, 255, 0.95); 
     border-radius: 10px; 
     background-color: #f0f0f0;
 }
@@ -108,7 +108,7 @@ body{
 } 
 .caption { 
     font-size: 16px; 
-    color: rgba(106, 108, 108, 0.95); 
+    color: rgba(254, 254, 254, 0.95); 
     margin-top: 10px; 
     width: auto;
     max-width: 800px;
@@ -131,7 +131,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#1D1B40;
+    background-color:#000000;
 }
 li {
 float: left;
@@ -145,10 +145,10 @@ li a {
     color: rgba(106, 108, 108, 0.95);
 }
 li a:hover :not(.active) {
-    background-color: #030307;
+    background-color: rgb(106, 108, 108, 0.95);
 }
 .active {
-    background-color:#030307;
+    background-color:#000000;
 }
 ul{outline-color:rgba(106, 108, 108, 0.95);}
 ul.double {outline-style: double;}
@@ -156,28 +156,32 @@ p{outline-color: rgba(106, 108, 108, 0.95);}
 p.double {outline-style:double}
 p.dotted {outline-style:dotted}
 h1{
-color:#1D1B40;
+color:#000000;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-align: center;
 }
 h2{
-    color:#1D1B40;
+    color:#000000;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
 }
+h3{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
 p{
     text-align: center;
-    background-color: #1D1B40;
+    background-color: #000000;
     border: 20px;
     border-color: rgba(106, 108, 108, 0.95);
     outline-color:rgba(106, 108, 108, 0.95);
     p.double {outline-style:double;}
 }
 p{
-    background-color: #1D1B40;
+    background-color: #000000;
 }
 li{
-    color: #1D1B40;
+    color: #000000;
 }
 .icons { 
     display: flex; 
@@ -191,7 +195,7 @@ li{
     text-decoration: none; 
 } 
 .icon-link:hover { 
-    color: #1D1B40; 
+    color: #000000; 
 }
 /* Media sizing for smaller screens */ 
 @media (max-width: 578px) {
